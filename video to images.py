@@ -32,7 +32,7 @@ def extract_frames(video_path, output_folder, frame_rate=1):
     video.release()
     cv2.destroyAllWindows()
 
-# Example usage
+# Converting video to images
 video_path = 'D:\SUTD\Experiment (Partha)\80 microlitre per min (1-6).avi'  # Replace with your .avi video path
 output_folder = 'D:\SUTD\Experiment (Partha)\Frames'     # Folder to save frames
 frame_rate = 10                        # Extract every 10th frame
